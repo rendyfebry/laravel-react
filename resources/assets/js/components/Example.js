@@ -1,17 +1,19 @@
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+import React, { Component } from 'react'
+import ReactDOM from 'react-dom'
+
+import TableComponent from "./TableComponent.js"
 
 export default class Example extends Component {
 	render() {
 		return (
-			<div className="container">
+			<div className="container-fluid">
 				<div className="row">
 					<div className="col-md-8 col-md-offset-2">
 						<div className="panel panel-default">
 							<div className="panel-heading">Example Component</div>
 
 							<div className="panel-body">
-								Change Component once again
+								<TableComponent />
 							</div>
 						</div>
 					</div>
